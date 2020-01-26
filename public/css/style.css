@@ -14,8 +14,13 @@ a {
 }
 
 h1 {
-    font-size: 80px!important;
+    font-size: 75px!important;
     font-weight: bolder!important;
+}
+
+h2 {
+    font-size: 40px !important;
+    font-weight: 700 !important;
 }
 
 
@@ -75,8 +80,16 @@ header {
     font-size: 15px !important;
 }
 
+.col-sm-6 {
+    padding: 0;
+}
+
 .content-img-header {
-    padding-left: 105%;
+    padding-left: 110%;
+}
+
+.content-img-header img {
+    width: 600px;
 }
 
 .content-text-header {
@@ -86,7 +99,7 @@ header {
 }
 
 .content-text-header p {
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -97,7 +110,7 @@ main {
     background-color: hsla(0, 4%, 83%, 0.205)
 }
 
-.card {
+.card-shorten {
     background-color: hsl(257, 27%, 26%) !important;
     background-image: url(/images/bg-shorten-desktop.svg) !important;
     background-repeat: no-repeat;
@@ -112,7 +125,7 @@ main {
     width: -webkit-fill-available;
 }
 
-.card-body {
+.card-body-shorten {
     margin-top: 3%;
 }
 
@@ -131,14 +144,250 @@ main {
     color: hsl(0, 1%, 72%) !important;
 }
 
+.row-content-advanced {
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+
+.content-advanced {
+    text-align: center;
+    margin: auto;
+}
+
+.content-advanced h2 {
+    margin-bottom: 5%;
+}
+
+.content-advanced p {
+    margin-bottom: 0.5%;
+}
+
+hr {
+    border: 3px solid hsl(180, 66%, 49%) !important;
+    top: 490% !important;
+    position: relative;
+    width: 80%;
+}
+
+.img-adv {
+    background-color: hsl(255, 11%, 22%);
+    border-radius: 50%;
+    height: 80px;
+    width: 30%;
+    margin-top: -29%;
+}
+
+.icon-adv {
+    margin-left: 26%;
+    margin-top: 19%;
+}
+
+.card-fully .icon-adv {
+    margin-left: 21% !important;
+}
+
+.card-adv-content {
+    border: none !important;
+}
+
+.card-body-adv-content {
+    background-color: #fff;
+    padding: 2rem !important;
+}
+
+.dr {
+    top: 20%;
+}
+
+.fc {
+    top: 40%;
+}
+
+.container {
+    margin-bottom: 15% !important;
+}
+
+.row-content-boost {
+    background-color: hsl(257, 27%, 26%) !important;
+    background-image: url(/images/bg-boost-desktop.svg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    margin: 0 !important;
+    text-align: center;
+}
+
+.text-boost {
+    color: #fff;
+    margin: auto;
+    padding-left: 35%;
+}
+
+.btn-boost .btn-rounded {
+    /*  margin-left: 41.5%;
+    
+    padding: 0px !important;
+    height: 55%;
+    width: 15%; */
+    margin: auto;
+    margin-top: -2%;
+    padding-left: 35%;
+}
+
 
 /* FOOTER */
+
+.content-footer {
+    background-color: hsl(260, 8%, 14%);
+}
+
+.logo-footer {
+    filter: invert(50%) sepia(93%) saturate(50%) hue-rotate(53deg) brightness(173%) contrast(119%);
+}
+
+.content-footer h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.row-content-footer {
+    padding: 5% 12% 0%;
+}
+
+.social-media img {
+    margin: 0 4%;
+}
 
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin: auto;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media(max-width: 1205px) {
+    .content-text-header p {
+        font-size: 20px;
+    }
+    .input-shorten {
+        width: 70%;
+    }
+    h1 {
+        font-size: 3.2rem !important;
+    }
+    .content-img-header img {
+        width: 540px;
+    }
+    .img-adv {
+        height: 70px;
+        width: 33%;
+    }
+    .icon-adv {
+        margin-left: 23%;
+        margin-top: 22%;
+    }
+    .card-fully .icon-adv {
+        margin-left: 18% !important;
+    }
+}
+
+@media (max-width: 1205px) {
+    .content-img-header img {
+        width: 445px;
+    }
+    .input-shorten {
+        width: 64%;
+    }
+    .btn-boost .btn-rounded {
+        margin-left: 45%;
+    }
+}
+
+@media (max-width: 770px) {
+    .navbar-btn a {
+        margin-left: -25%;
+    }
+    .content-text-header h1 {
+        font-size: 32px;
+    }
+    .content-text-header p {
+        font-size: 16px;
+        width: 75%;
+    }
+    .content-img-header {
+        padding-left: 116%;
+    }
+    .content-img-header img {
+        width: 350px;
+        margin-top: 85px;
+    }
+    .btn-square {
+        border-radius: 9px !important;
+        padding: 10px 20px !important;
+    }
+    .card-body-adv-content {
+        padding: 4% !important;
+    }
+    .text-boost {
+        padding-left: 22%;
+    }
+    .btn-boost .btn-rounded {
+        margin-left: 40%;
+    }
+    .container {
+        margin-bottom: 30% !important;
+    }
+    .img-adv {
+        width: 41%;
+    }
+    .input-group {
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 450px) {
+    body {
+        text-align: center !important;
+    }
+    header {
+        height: 950px;
+    }
+    .row {
+        margin: 0 !important;
+    }
+    .content-img-header {
+        margin: auto;
+        padding: 0;
+    }
+    .content-text-header {
+        margin: auto;
+        padding: 0;
+    }
+    .content-text-header p {
+        margin-bottom: 10%;
+        width: 100%;
+    }
+    .card-body-shorten {
+        margin-top: 5%;
+    }
+    .card-shorten-it {
+        margin-top: -20%;
+    }
+    .input-shorten {
+        border-radius: 7px;
+        height: 50px;
+        margin: 0;
+        width: 100%;
+    }
+    .btn-square {
+        margin-top: 3%;
+        padding: 10px 75px !important;
+    }
+    .input-group {
+        margin-top: 3%;
+    }
 }

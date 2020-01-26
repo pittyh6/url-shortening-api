@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+
+/* FUll */
+
+body {
+    font-family: "Poppins" !important;
+    font-weight: 700 !important;
+}
+
+li,
+p,
+a {
+    color: hsl(0, 1%, 70%) !important;
+}
+
+h1 {
+    font-size: 80px!important;
+    font-weight: bolder!important;
+}
+
+
+/* containers & rows*/
+
+.container-fluid {
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+.row {
+    width: 100%;
+}
+
+
+/* btn */
+
+.btn-primary {
+    background-color: hsl(180, 66%, 49%) !important;
+    border-color: hsl(180, 66%, 49%) !important;
+    font-weight: 700 !important;
+}
+
+.btn-rounded {
+    border-radius: 30px !important;
+    padding: 15px 45px !important;
+}
+
+.btn-square {
+    border-radius: 9px !important;
+    padding: 15px 40px !important;
+}
+
+
+/* HEADER */
+
+header {
+    height: 750px;
+}
+
+.navbar {
+    height: 150px;
+}
+
+.navbar-nav {
+    padding-left: 20% !important;
+}
+
+.navbar-btn {
+    padding-left: 28% !important;
+}
+
+.navbar-btn button {
+    margin-left: 10%;
+    padding: 3% 10% !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+}
+
+.content-img-header {
+    padding-left: 105%;
+}
+
+.content-text-header {
+    margin-left: -83%;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.content-text-header p {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+
+/* MAIN */
+
+main {
+    background-color: hsla(0, 4%, 83%, 0.205)
+}
+
+.card {
+    background-color: hsl(257, 27%, 26%) !important;
+    background-image: url(/images/bg-shorten-desktop.svg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 175px;
+    margin: auto;
+    width: 78%;
+}
+
+.card-shorten-it {
+    margin-top: -5%;
+    width: -webkit-fill-available;
+}
+
+.card-body {
+    margin-top: 3%;
+}
+
+.input-shorten {
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 4%;
+    margin-right: 3%;
+    padding-left: 3%;
+    width: 74%;
+}
+
+.input-shorten::placeholder {
+    color: hsl(0, 1%, 72%) !important;
+}
+
+
+/* FOOTER */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

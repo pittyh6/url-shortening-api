@@ -160,13 +160,19 @@ main {
 
 .content-advanced p {
     margin-bottom: 0.5%;
+    width: 50%;
+    margin: auto;
 }
 
-hr {
+.hr-desk {
     border: 3px solid hsl(180, 66%, 49%) !important;
     top: 490% !important;
     position: relative;
     width: 80%;
+}
+
+.hr-mob {
+    display: none;
 }
 
 .img-adv {
@@ -353,6 +359,9 @@ hr {
     body {
         text-align: center !important;
     }
+    h3 {
+        font-size: 1.5rem !important;
+    }
     header {
         height: 950px;
     }
@@ -362,6 +371,9 @@ hr {
     .content-img-header {
         margin: auto;
         padding: 0;
+    }
+    .content-img-header img {
+        width: 330px;
     }
     .content-text-header {
         margin: auto;
@@ -389,5 +401,89 @@ hr {
     }
     .input-group {
         margin-top: 3%;
+    }
+    .content-advanced h2 {
+        margin-top: 20%;
+    }
+    .content-advanced p {
+        margin-bottom: 15% !important;
+        margin: auto;
+        width: 90% !important;
+    }
+    .card-body-adv-content {
+        padding: 10% !important;
+    }
+    .img-adv {
+        width: 30%;
+        margin-left: 34%;
+    }
+    .col-content-card h3 {
+        margin-top: 10%;
+    }
+    .icon-adv {
+        margin-left: 3%;
+    }
+    .card-fully .icon-adv {
+        margin-left: 3% !important;
+    }
+    .container {
+        height: 940px;
+    }
+    .hr-mob {
+        display: inline-block;
+        height: 10vh !important;
+        width: 1px !important;
+        border: 3px solid hsl(180, 66%, 49%) !important;
+        top: 0% !important;
+        position: inherit;
+    }
+    .hr-desk {
+        display: none;
+    }
+    .card-adv-content .cb {
+        margin-top: 5% !important;
+        margin-bottom: -18px;
+    }
+    .dr {
+        top: 8%;
+    }
+    .fc {
+        top: 9%;
+    }
+    .text-boost {
+        margin: auto !important;
+        padding: 0;
+        width: 90%;
+    }
+    .text-boost h2 {
+        font-size: 25px !important;
+        margin: auto !important;
+        padding-top: 10%;
+    }
+    .btn-boost .btn-rounded {
+        margin-left: 26%;
+    }
+    .img-logo-footer {
+        margin: 9%;
+    }
+    .col-content-footer {
+        margin-bottom: 10%;
+    }
+    .btn-square {
+        margin-top: 3%;
+        padding: 10px 75px !important;
+        width: 106% !important;
+    }
+}
+
+@media(min-width: 411px) and (max-width:414px) {
+    .btn-square {
+        width: 118% !important;
+    }
+}
+
+@media (max-width:361px) {
+    .btn-square {
+        width: 100% !important;
     }
 }

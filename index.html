@@ -20,14 +20,16 @@
     <!-- HEADER -->
     <header>
         <div class="container-fluid menu">
-            <div class="navbar navbar-expand-sm navbar-expand-md navbar-light">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="navbar-brand">
-                                    <img class="img-logo-header" src="../images/logo.svg" alt="image logo header nav bar">
-                                </li>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <nav class="navbar navbar-expand-sm navbar-expand-md navbar-light">
+                        <img class="img-logo-header navbar-brand" src="../images/logo.svg" alt="image logo header nav bar">
+                        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbarNav">
+                                &#9776;
+                            </button>
+                        <div class="collapse navbar-collapse navbar-toggleable-xs nav-bar-collapse" id="navbarNav">
+                            <ul class="nav navbar-nav">
                                 <li class="nav-item">
                                     <a class="nav-link" href="">Features</a>
                                 </li>
@@ -38,12 +40,18 @@
                                     <a class="nav-link" href="">Resources</a>
                                 </li>
                             </ul>
+                            <hr class="nav-bar-hr-xs">
+                            <ul class="navbar-btn nav navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="">Login</a>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="btn-rounded btn btn-primary" data-toggle="collapse" data-target="#navbarCollapse">Sign Up</button>
+                                </li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="navbar-btn col-sm-6">
-                        <a href="">Login</a>
-                        <button class="btn-rounded btn btn-primary">Sign Up</button>
-                    </div>
+
+                    </nav>
                 </div>
             </div>
         </div>
@@ -221,5 +229,9 @@
 </body>
 <!-- Bootstrap -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </html>
